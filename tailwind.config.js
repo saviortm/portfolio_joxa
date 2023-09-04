@@ -12,9 +12,6 @@ export default {
             'dark-black': '#18171D',
             'color-title': '#F9D168'
         },
-        backgroundImage: {
-            'service-texture': "url('/images/services.png')",
-        }
     },
   },
   plugins: [],

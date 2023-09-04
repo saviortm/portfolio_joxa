@@ -1,13 +1,13 @@
 <script setup>
 import { TitleSection } from '../blocks';
+import serviceImg from '../../../public/images/services.png'
 
 const name = 'Services'
-const image = 'service-texture'
 </script>
 
 <template>
   <div class="grid-container">
-      <TitleSection :img="image" :title="name"/>
+      <TitleSection :img="serviceImg" :title="name"/>
     <div class="grid grid-cols-3 gap-x-5 gap-y-16">
     </div>
   </div>
