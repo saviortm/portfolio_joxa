@@ -1,12 +1,14 @@
-<script setup></script>
+<script setup>
+import { TitleSection } from '../blocks';
+
+const name = 'Services'
+const image = 'service-texture'
+</script>
 
 <template>
   <div class="grid-container">
-    <div class="my-16">
-      <h1 class="font-semibold text-color-title text-5xl">Services</h1>
-    </div>
-    <div class="grid-cols-3 gap-x-5 gap-y-16">
-      <p>contents</p>
+      <TitleSection :img="image" :title="name"/>
+    <div class="grid grid-cols-3 gap-x-5 gap-y-16">
     </div>
   </div>
 </template>

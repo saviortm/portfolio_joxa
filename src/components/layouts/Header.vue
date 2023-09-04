@@ -4,7 +4,7 @@
 
 <template>
 <div>
-    <img class="w-full" src="/public/images/germany.png" alt="Germany">
+    <img class="w-full" src="/images/germany.png" alt="Germany">
 </div>
 </template>
 

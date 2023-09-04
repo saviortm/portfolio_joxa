@@ -13,7 +13,7 @@ export default {
             'color-title': '#F9D168'
         },
         backgroundImage: {
-            'service-pattern': "url('/images/services')",
+            'service-texture': "url('/images/services.png')",
         }
     },
   },
