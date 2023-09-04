@@ -1,0 +1,59 @@
+{
+    "root": true,
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+    "parser": "babel-eslint",
+        "sourceType": "module"
+},
+    "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+],
+    "env": {
+    "node": true,
+        "es6": true
+},
+    "plugins": ["vue"],
+    "rules": {
+    "space-unary-ops": "error",
+        "space-infix-ops": "error",
+        "key-spacing": "error",
+        "block-spacing": "error",
+        "eqeqeq": "error",
+        "object-curly-spacing": ["error", "always"],
+        "indent": ["error", 4],
+        "quotes": ["error", "single"],
+
+        "vue/no-v-html": 0,
+        "vue/eqeqeq": "error",
+        "vue/no-unused-vars": "error",
+        "vue/array-bracket-spacing": "error",
+        "vue/arrow-spacing": "error",
+        "vue/block-spacing": "error",
+        "vue/key-spacing": "error",
+        "vue/component-name-in-template-casing": "error",
+        "vue/space-infix-ops": "error",
+        "vue/space-unary-ops": "error",
+        "vue/object-curly-spacing": ["error", "always"],
+        "vue/v-on-function-call": ["error", "never"],
+        "vue/script-indent": ["error", 4, {
+        "baseIndent": 0,
+        "switchCase": 1,
+        "ignores": ["LogicalExpression"]
+    }],
+        "vue/html-indent": ["error", 4, {
+        "baseIndent": 1
+    }],
+        "vue/html-closing-bracket-spacing": ["error", {
+        "endTag": "never",
+        "selfClosingTag": "never"
+    }],
+        "vue/max-attributes-per-line": ["error", {
+        "singleline": 4,
+        "multiline": {
+            "max": 1,
+            "allowFirstLine": false
+        }
+    }]
+}
+}
