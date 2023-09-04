@@ -1,5 +1,10 @@
+<script setup>
+import { Header } from '../components/layouts';
+import { Services } from '../components/layouts';
+</script>
 <template>
-<!--    <h1 class="text-3xl font-bold underline text-green-400">-->
-<!--        Hello world!-->
-<!--    </h1>-->
+    <div class="bg-dark-black">
+        <Header/>
+        <Services/>
+    </div>
 </template>
