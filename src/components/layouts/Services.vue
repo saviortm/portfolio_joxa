@@ -2,7 +2,7 @@
 import {reactive} from "vue";
 import { TitleSection } from '../blocks'
 import { ServiceCard } from '../cards'
-import serviceImg from '../../../public/images/services.png'
+import serviceImg from '../../../src/assets/images/services.png'
 
 
 const name = 'Services'
