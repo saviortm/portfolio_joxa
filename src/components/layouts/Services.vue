@@ -10,7 +10,6 @@ import arGames from '../../../src/assets/images/ar.png'
 import vrGames from '../../../src/assets/images/vr.png'
 import designGames from '../../../src/assets/images/game-design.png'
 
-
 const name = 'Services'
 
 const data = reactive({
@@ -52,14 +51,11 @@ const data = reactive({
 <template>
   <div class="grid-container">
     <TitleSection :img="serviceImg" :title="name" />
-      <div class="grid grid-cols-3 gap-x-5 gap-y-16 text-white">
-          <div
-              v-for="(service, index) in data.serviceData"
-              :key="index"
-          >
-              <ServiceCard :service="service" />
-          </div>
+    <div class="grid grid-cols-3 gap-x-5 gap-y-16 text-white">
+      <div v-for="(service, index) in data.serviceData" :key="index">
+        <ServiceCard :service="service" />
       </div>
+    </div>
   </div>
 </template>
 
