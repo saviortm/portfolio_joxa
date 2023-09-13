@@ -17,7 +17,7 @@ const props = defineProps({
 
 <template>
   <div
-    :style="`background-image: url(${props.img});`"
+    :style="`background-image: url(${props?.img});`"
     class="bg-no-repeat h-16 w-[342px] flex items-center justify-center my-16"
   >
     <h1 class="font-semibold text-color-title text-5xl text-shadow">
